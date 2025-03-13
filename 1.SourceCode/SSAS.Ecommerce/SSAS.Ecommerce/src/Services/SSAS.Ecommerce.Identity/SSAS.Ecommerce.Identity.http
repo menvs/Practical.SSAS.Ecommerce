@@ -1,0 +1,6 @@
+@SSAS.Ecommerce.Identity_HostAddress = http://localhost:5029
+
+GET {{SSAS.Ecommerce.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

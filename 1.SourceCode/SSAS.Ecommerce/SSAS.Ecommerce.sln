@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSAS.Ecommerce", "SSAS.Ecommerce\SSAS.Ecommerce.csproj", "{24AEAB18-702E-4528-941C-CA4ED19F0689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E86C3A0-340F-4F2E-B3C5-B21C526214BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{54943E7E-6EB2-44B1-AABF-0BE85CC2E5D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthenticateService", "AuthenticateService", "{2F4A1F34-135B-4DCD-8F8E-27D180C7A2C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2654114D-DEF6-4D5D-A15B-56E50FD4C91F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24AEAB18-702E-4528-941C-CA4ED19F0689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AEAB18-702E-4528-941C-CA4ED19F0689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AEAB18-702E-4528-941C-CA4ED19F0689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AEAB18-702E-4528-941C-CA4ED19F0689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54943E7E-6EB2-44B1-AABF-0BE85CC2E5D7} = {6E86C3A0-340F-4F2E-B3C5-B21C526214BC}
+		{2F4A1F34-135B-4DCD-8F8E-27D180C7A2C9} = {2654114D-DEF6-4D5D-A15B-56E50FD4C91F}
+		{2654114D-DEF6-4D5D-A15B-56E50FD4C91F} = {6E86C3A0-340F-4F2E-B3C5-B21C526214BC}
+	EndGlobalSection
+EndGlobal
